@@ -1,0 +1,176 @@
+* {
+  border-color: magenta;
+}
+
+.header-background {
+  background-color: #1F2937;
+}
+
+.header {
+  /* border-style: solid; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+}
+
+a {
+  /* border-style: solid; */
+  text-decoration: none;
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.header-logo {
+  /* border-style: solid; */
+  font-size: 24px;
+  font-weight: bold;
+  color: #F9FAF8;
+}
+
+.links {
+  /* border-style: solid; */
+  display: flex;
+  gap: 1.5rem;
+}
+
+.header-bottom{
+  /* border-style: solid; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  gap: 5rem;
+  margin-top: 2rem;
+}
+
+.text {
+  color: #F9FAF8;
+  text-wrap: wrap;
+  width: 400px;
+  height: auto;
+  /* border-style: solid; */
+  display: flex;
+  flex-direction: column;
+}
+
+.subtext1 {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.subtext2 {
+  font-size: 20px;
+  color: lightgray;
+}
+
+button {
+  border-style: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 0.5rem;
+  background-color: #3882F6;
+  padding: 0.35rem;
+  max-width: 7rem;
+  margin-top: 0.5rem;
+}
+
+
+.header-image img {
+  /* border-style: solid; */
+  width: 300px;
+  height: auto;
+}
+
+.photo-title {
+  font-size: 32px;
+  text-align: center;
+  padding: 2rem;
+}
+
+.photo-items {
+  /* border-style: solid; */
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.photo-items img {
+  border-style: solid;
+  border-color: #3882F6;
+  width: 100px;
+  height: auto;
+  border-radius: 0.5rem;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100px;
+  height: auto;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  padding: 5rem;
+  background-color: lightgray;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.quote-text {
+  /* border-style: solid; */
+  max-width: 450px;
+  font-size: 22px;
+  font-style: italic;
+}
+
+.author {
+  /* border-style: solid; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.sign-up-border{
+  /* border-style: solid; */
+  display: flex;
+  justify-content: center;
+}
+
+.wrap-text {
+  /* border-style: solid; */
+  border-radius: 0.5rem;
+  margin: 5rem;
+  display: flex;
+  gap: 10rem;
+  padding: 2rem;
+  background-color: #3882F6;
+  color: white;
+}
+
+.sign-up-button button {
+  border-style: solid;
+  border-color: white;
+  width: 100px;
+}
+
+.sign-up-text thin {
+  font-weight: 0;
+  font-size: 14px
+}
+
+.footer {
+  /* border-style: solid; */
+  background-color: #1F2937;
+  color: white;
+  font-size: 14px;
+  display: flex;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+}
