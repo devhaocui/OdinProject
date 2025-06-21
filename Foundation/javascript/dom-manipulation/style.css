@@ -1,0 +1,7 @@
+
+.container {
+  display: flex;
+  border-color: magenta;
+  border-radius: 5px;
+  border-style: solid;
+}

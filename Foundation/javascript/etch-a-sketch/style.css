@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh; /* stretching the body to the maximum height of it's current browswer size */
+  /* border: 1px solid magenta; */
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 800px;
+}
+
+#container div {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  text-align: center;
+  line-height: 50px;
+  box-sizing: border-box;
+}
+
+#button-container {
+  position: fixed;
+  bottom: 10px;
+  transform: 50%;
+}
