@@ -1,4 +1,6 @@
-// change backgroun color of a grid when hovered
+// NOTE: FUNCTIONS
+
+// change background color of a grid when hovered
 let hovered = (event) => {
   event.target.style.backgroundColor = "green"
 }
@@ -31,6 +33,8 @@ let buttonChangeSize = () => {
   })
 }
 
+// NOTE: LOGIC & FUNCTION CALLS (Main)
+
 // generate initial grid
 let container = document.getElementById('container')
   for (let i = 0; i < 16; i++) {
@@ -40,17 +44,17 @@ let container = document.getElementById('container')
     }
   }
 
-// create a button to resize the grid
+// create a button to resize the height of the grid
 let buttonContainer = document.getElementById('button-container')
 const button = document.createElement('button')
 button.innerText = "Adjust Height"
 buttonContainer.appendChild(button)
-
 // event listener for button
 button.addEventListener('click', buttonChangeSize)
 
-const boxes = document.querySelectorAll('#container div')
 
+// generate initial event listeners
+const boxes = document.querySelectorAll('#container div')
 boxes.forEach(box => {
   box.addEventListener('mouseover', hovered)
   box.addEventListener('click', clear)
