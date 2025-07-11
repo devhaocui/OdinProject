@@ -1,0 +1,46 @@
+.outer {
+  border: 5px solid magenta;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  min-height: 90dvh;
+}
+#background-video {
+  /* fixed the background video position so it doesn't interfer with the rest of the UI */
+  position: fixed;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border: 1px solid black;
+  color: white;
+  padding: 10px;
+  max-width: 200px;
+  font-size: 24px;
+}
+
+form button {
+  margin: 25px;
+  padding: 5px;
+  background: transparent;
+  color: white;
+  border-color: ghostwhite;
+}
+
+p {
+  text-align: center;
+}
+
+h3 {
+  color: floralwhite;
+}
+
+hr {
+  margin-left: 0;
+  margin-right: 0;
+  border: 1px solid black;
+}
+

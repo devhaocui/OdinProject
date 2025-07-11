@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="outer">
+      <video autoplay muted loop id="background-video">
+        <source src="background.mp4" type="video/mp4">
+      </video>
+      <form action="/action_page.js" method="get">
+        <p> Hao's Simple Register Page</p>
+        <hr>
+        <label for="email">email:</label>
+        <input type="email" id="email" name="email">
+        <label for="password">password:</label>
+        <input type="password" id="password" name="password">
+        <label for="confirm-password">confirm password:</label>
+        <input type="password" id="confirm-password" name="confirm-password" required>
+        <button type="submit" form="nameform" value="Submit">Create Account</button>
+      </form>
+    </div>
+  </body>
+</html>
