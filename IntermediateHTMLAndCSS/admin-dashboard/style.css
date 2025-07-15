@@ -1,0 +1,72 @@
+img {
+  width: 30px;
+  height: 30px;
+}
+
+.dashboard img {
+  filter: invert(100%);
+}
+
+.outer-most-layer {
+  display: grid;
+  grid-template-columns: 200px 800px 200px;
+  grid-template-areas:
+  "dashboard header header"
+  "dashboard project announcement"
+  "dashboard project trending";
+  border: 3px solid pink;
+  /* justify-content: center; */
+}
+
+.dashboard {
+  grid-area: dashboard;
+  display: grid;
+  grid-template-columns: 50px 50px;
+  grid-auto-rows: min-content;
+  min-height: 95dvh;
+  gap: 12px;
+  color: white;
+  background: dodgerblue;
+  padding: 20px;
+}
+
+.header {
+  grid-area: header;
+  border: 3px solid blue;
+}
+
+.project {
+  grid-area: project;
+  border: 3px solid green;
+  display: grid;
+  grid-auto-rows: min-content;
+  grid-template-columns: auto auto;
+  justify-content: space-around;
+  gap: 10px;
+  padding: 12px;
+}
+
+.projects {
+  border: 3px solid pink;
+  display: grid;
+  grid-auto-rows: min-content;
+  height: 200px;
+  width: 350px;
+  padding: 12px;
+}
+
+.projects-icons {
+  display: flex;
+  justify-content: right;
+  gap: 18px;
+}
+
+.announcement {
+  grid-area: announcement;
+  border: 3px solid red;
+}
+
+.trending {
+  grid-area: trending;
+  border: 3px solid purple;
+}
